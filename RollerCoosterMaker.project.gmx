@@ -8,8 +8,12 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\Build_Tools.gml</script>
+  </scripts>
   <objects name="objects">
-    <object>objects\SpawnCooster</object>
+    <object>objects\obj_SpawnCooster</object>
+    <object>objects\obj_Build_sense</object>
   </objects>
   <help>
     <rtf>help.rtf</rtf>
